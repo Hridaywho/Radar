@@ -17,6 +17,7 @@ A cool Arduino radar that sweeps an ultrasonic sensor from **15° → 165° → 
 - 🔄 SG90/SG92R Servo Motor  
 - 🧵 Jumper wires & breadboard  
 - 🔌 USB cable for power/programming  
+- 🩹 **Double-sided tape or a glue gun** to secure the sensor and servo in place  
 
 ### 🔗 Wiring
 
@@ -63,3 +64,4 @@ A cool Arduino radar that sweeps an ultrasonic sensor from **15° → 165° → 
 MIT License – hack it, remix it, share it!  
 
 👤 **Author:** Hriday D.
+
