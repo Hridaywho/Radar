@@ -19,14 +19,26 @@ A cool Arduino radar that sweeps an ultrasonic sensor from **15° → 165° → 
 - 🔌 USB cable for power/programming  
 - 🩹 **Double-sided tape or a glue gun** to secure the sensor and servo in place  
 
-### 🔗 Wiring
+### 🔗 Wiring (Ultrasonic Sensor)
 
 | Part | Pin on Arduino |
 |------|---------------|
 | HC-SR04 **Trig** | D10 |
 | HC-SR04 **Echo** | D11 |
-| Servo **Signal**  | D12 |
 | VCC / GND | 5 V / GND |
+
+---
+
+## 🔌 Servo Motor Connection  ⚠️  
+Follow these connections **exactly** to avoid damaging the servo motor:
+
+| Servo Wire | Connect To |
+|------------|-----------|
+| 🔴 **Red**    | 5 V |
+| 🟡 **Yellow** | Pin 12 |
+| 🟤 **Brown**  | GND |
+
+⚠️ **Important:** Please follow these connections carefully or you risk damaging your servo motor.
 
 ---
 
@@ -64,4 +76,3 @@ A cool Arduino radar that sweeps an ultrasonic sensor from **15° → 165° → 
 MIT License – hack it, remix it, share it!  
 
 👤 **Author:** Hriday D.
-
